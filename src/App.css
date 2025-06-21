@@ -1,0 +1,16 @@
+body.dark {
+  background: #181c2a;
+  color: #fff;
+}
+
+body.light {
+  background: #f5f6fa;
+  color: #222;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
