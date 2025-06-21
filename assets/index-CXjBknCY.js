@@ -89,7 +89,7 @@ Error generating stack: `+l.message+`
 
   border: none;
       
-`,Ep=()=>{const n=Wr(),c=fn(r=>r.theme.mode);return yt.jsx(bp,{onClick:()=>n(cg()),children:c==="dark"?yt.jsx(vg,{}):yt.jsx(gg,{})})},_p="/assets/logo-CzwlH0bz.svg",Ap=Ft.header`
+`,Ep=()=>{const n=Wr(),c=fn(r=>r.theme.mode);return yt.jsx(bp,{onClick:()=>n(cg()),children:c==="dark"?yt.jsx(vg,{}):yt.jsx(gg,{})})},_p="/browser-extensions-manager-ui-main/assets/logo-CzwlH0bz.svg",Ap=Ft.header`
    background-color:rgb(255, 255, 255);
   color: white;
   display: flex;
