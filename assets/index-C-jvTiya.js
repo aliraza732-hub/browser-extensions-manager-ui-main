@@ -213,7 +213,7 @@ padding: 10px 20px;
   input:checked + span:before {
     transform: translateX(16px);
   }
-`,$p=()=>{const n=Wr(),c=fn(d=>d.extension.items),r=fn(d=>d.filter.status),f=c.filter(d=>r==="all"?!0:r==="active"?d.active:r==="inactive"?!d.active:!0);return yt.jsx(Gp,{children:f.map(d=>yt.jsxs(Xp,{children:[yt.jsxs(Qp,{children:[yt.jsx(Zp,{children:yt.jsx("img",{src:d.logo.replace("./","/"),alt:d.name,style:{width:"100%",height:"100%",objectFit:"contain"}})}),yt.jsxs("div",{children:[yt.jsx(Lp,{children:d.name}),yt.jsx(Vp,{active:d.active,children:d.description})]})]}),yt.jsxs(Kp,{children:[yt.jsx(Jp,{onClick:()=>n(Yp(d.name)),children:"Remove"}),yt.jsxs(kp,{children:[yt.jsx("input",{type:"checkbox",checked:d.active,onChange:()=>n(qp(d.name))}),yt.jsx("span",{})]})]})]}))})},Wp=Sp`
+`,$p=()=>{const n=Wr(),c=fn(d=>d.extension.items),r=fn(d=>d.filter.status),f=c.filter(d=>r==="all"?!0:r==="active"?d.active:r==="inactive"?!d.active:!0);return yt.jsx(Gp,{children:f.map(d=>yt.jsxs(Xp,{children:[yt.jsxs(Qp,{children:[yt.jsx(Zp,{children:yt.jsx("img",{src:`/browser-extensions-manager-ui-main/${d.logo.replace("./","")}`,alt:d.name,style:{width:"100%",height:"100%",objectFit:"contain"}})}),yt.jsxs("div",{children:[yt.jsx(Lp,{children:d.name}),yt.jsx(Vp,{active:d.active,children:d.description})]})]}),yt.jsxs(Kp,{children:[yt.jsx(Jp,{onClick:()=>n(Yp(d.name)),children:"Remove"}),yt.jsxs(kp,{children:[yt.jsx("input",{type:"checkbox",checked:d.active,onChange:()=>n(qp(d.name))}),yt.jsx("span",{})]})]})]}))})},Wp=Sp`
   body {
     background: ${({theme:n})=>n.background};
     color: ${({theme:n})=>n.color};
